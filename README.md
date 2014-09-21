@@ -16,7 +16,7 @@ twilio-kintone
 　  条件：すべてのレコード  
 　  ソート：作成日時 降順  
 
-![カスタマイズビューイメージ](customizeview.png)
+![カスタマイズビューイメージ](customizeviewimage.png)
 
 * twilio-kintone-detail.js  
 詳細画面のカスタマイズ用JavaScript  
