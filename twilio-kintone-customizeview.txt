@@ -4,35 +4,20 @@ input{font-size: 40px;}
 .header{font-size: 40px; font-weight:bold;}
 
 .css_btn_class {
-	font-size:28px;
-	font-family:Arial;
-	font-weight:normal;
-	-moz-border-radius:11px;
-	-webkit-border-radius:11px;
-	border-radius:11px;
-	border:5px solid #ffaa22;
-	padding:12px 76px;
-	text-decoration:none;
-	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
-	background:-ms-linear-gradient( top, #ffec64 5%, #ffab23 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ffec64), color-stop(100%, #ffab23) );
-	background-color:#ffec64;
-	color:#333333;
-	display:inline-block;
-	text-shadow:1px 1px 0px #ffee66;
- 	-webkit-box-shadow: 1px 1px 0px 0px #fff6af;
- 	-moz-box-shadow: 1px 1px 0px 0px #fff6af;
- 	box-shadow: 1px 1px 0px 0px #fff6af;
-}.css_btn_class:hover {
-	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
-	background:-ms-linear-gradient( top, #ffab23 5%, #ffec64 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(5%, #ffab23), color-stop(100%, #ffec64) );
-	background-color:#ffab23;
-}.css_btn_class:active {
-	position:relative;
-	top:1px;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #248;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;	/* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;	/* Firefox用 */
+}
+
+.css_btn_class:hover {
+    background-color: #24d;
+    color: #fff;
 }
 </style>
 

@@ -14,7 +14,8 @@
 		if (event.viewId != 5199191) return;
 
 		//==================================================
-		//Administrator以外の場合はメニューを隠す（内部ハック）
+		//Administrator以外の場合はメニューを隠す
+		//内部仕様をハックしているため非推奨
 		//==================================================
 		var user = kintone.getLoginUser();
 		if(user['code'] != "Administrator"){
