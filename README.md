@@ -16,6 +16,8 @@ twilio-kintone
 　  条件：すべてのレコード  
 　  ソート：作成日時 降順  
 
+![カスタマイズビューイメージ](customizeview.png)
+
 * twilio-kintone-detail.js  
 詳細画面のカスタマイズ用JavaScript  
 詳細画面にSMS送信用のボタンを表示し、クリックされたらSMSを送信します。  
