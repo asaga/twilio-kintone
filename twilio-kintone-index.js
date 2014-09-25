@@ -14,19 +14,6 @@
 		if (event.viewId != 5199191) return;
 
 		//==================================================
-		//Administrator以外の場合はメニューを隠す
-		//内部仕様をハックしているため非推奨
-		//==================================================
-		var user = kintone.getLoginUser();
-		if(user['code'] != "Administrator"){
-			$(".header-cybozu").remove();
-			$("#sidemenu-gaia").remove();
-			$(".menu-gaia").remove();
-			$(".gaia-ui-actionmenu-left").remove();
-			$(".title-gaia").remove();
-		}
-
-		//==================================================
 		//カスタマイズビューの登録ボタンクリック時の処理
 		//==================================================
 		$('#btn_reserve').click(function() {
