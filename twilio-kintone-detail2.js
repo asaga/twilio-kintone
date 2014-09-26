@@ -8,8 +8,8 @@
 	"use strict";
 
 	//Twilio認証パラメーター（Twilioダッシュボードで確認可能）
-    var ACCOUNT_SID 	= 'AC52e689efffc9d8d9265dc4fc35fb11e8';
-    var AUTH_TOKEN 		= 'f5d1b099d91b512d912fad3bbe20484c';
+    var ACCOUNT_SID 	= 'XXXXXXXXXXXXXXXXXXXXXXXX';
+    var AUTH_TOKEN 		= 'XXXXXXXXXXXXXXXXXXXXXXXX';
 
 	//レコード詳細表示イベント
 	kintone.events.on('app.record.detail.show', function (event) {
