@@ -20,6 +20,10 @@ twilio-kintone
 
 * twilio-kintone-detail.js  
 詳細画面のカスタマイズ用JavaScript  
+詳細画面にボタンを追加します。
+
+* twilio-kintone-detail2.js  
+詳細画面のカスタマイズ用JavaScript  
 詳細画面にSMS送信用のボタンを表示し、クリックされたらSMSを送信します。  
 
 * twilio-kintone-index.js  
